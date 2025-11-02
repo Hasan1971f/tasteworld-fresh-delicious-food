@@ -51,3 +51,39 @@ nav ul li a {
 nav ul li a:hover {
     color: #222;
 }
+
+/* ===== Hero Section ===== */
+.hero {
+    background: url('../assets/Banner.jpg') no-repeat center/cover;
+    color: rgb(151, 6, 248);
+    text-align: center;
+    padding: 120px 20px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    text-shadow: 2px 2px 5px #000;
+}
+
+.hero p {
+    margin-top: 15px;
+    font-size: 1.2rem;
+}
+
+.hero button {
+    margin-top: 25px;
+    background: #fff;
+    color: #ff914d;
+    border: none;
+    padding: 12px 15px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.hero button:hover {
+    transform: scale(1.1);
+    background: #222;
+    color: #fff;
+}
