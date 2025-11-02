@@ -139,3 +139,37 @@ nav ul li a:hover {
     transform: scale(1.05);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
+
+ /* ===== Offer Section ===== */
+
+ .offer{
+    background: #ffe0c2;
+    text-align:center;
+    padding: 80px 20px;
+    margin-top: 50px;
+ }
+ .offer h2{
+    color:  #ff914d;
+    font-size: 2rem;
+    margin-bottom: 15px;
+ }
+ .offer p{
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+    color: black;
+    
+ }
+ .offer button{
+    background: #ff914d;
+    color: white;
+    padding: 12px 15px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease ;
+ }
+ .offer button:hover{
+    background: rgb(213, 8, 231);
+    transform: scale(1.05);
+ }
